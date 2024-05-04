@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Outlet, useLocation } from "react-router-dom"
 import Sidebar from "../../components/ui/Sidebar";
+import Header from "../../components/ui/Header";
 
 const HomeLayout = () => {
 
@@ -31,10 +32,10 @@ const HomeLayout = () => {
         className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden custom-scrollbar"
         ref={divRef}
       >
-        {/* <UserHeader
+        <Header
           sidebarOpen={sidebarOpen}
           setSidebarOpen={setSidebarOpen}
-        /> */}
+        />
 
         <main className="font-montserrat">
           <Outlet />

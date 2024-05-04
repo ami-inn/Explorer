@@ -151,7 +151,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                             <NavLink
                               to="/"
                               className={({ isActive }) =>
-                                "group relative flex justify-between items-center gap-2.5  hover:bg-primaryHover rounded-md px-4 py-2 font-medium  duration-300 ease-in-out text-secondaryText " +
+                                "group relative flex justify-between items-center gap-2.5  hover:bg-primaryHover rounded-md px-4 py-2 font-medium  duration-300 ease-in-out text-primaryText " +
                                 (isActive && " text-primary")
                               }
                             >

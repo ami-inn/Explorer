@@ -88,23 +88,25 @@
     @apply invert-[50%] brightness-200;
   }
 
-  .custom-scrollbar::-webkit-scrollbar {
-    width: 10px;
-    height: 8px;
+  .table-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 4px;
     border-radius: 4px;
   }
 
-  .custom-scrollbar::-webkit-scrollbar-track {
+  .table-scrollbar::-webkit-scrollbar-track {
     background: white;
   }
 
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: #67459d44;
+  .table-scrollbar::-webkit-scrollbar-thumb {
+    background: #dadfe4;
     border-radius: 50px;
   }
 
-  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #d09dc3;
+  .table-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #E6EBF3;
+    cursor:grab ;
+
   }
 
   .email-scrollbar::-webkit-scrollbar {
