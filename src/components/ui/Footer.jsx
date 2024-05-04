@@ -1,11 +1,8 @@
-import {
-  FaFacebook,
-  FaGithub,
-  FaInstagram,
-  FaMedium,
-  FaTelegram,
-  FaTwitter,
-} from "react-icons/fa";
+/* eslint-disable react/prop-types */
+import {  FaFacebook,
+    FaGithub,
+    FaMedium,
+    FaTwitter,} from '../../styles/icons/index'
 
 const Footer = () => {
   return (
@@ -67,7 +64,7 @@ export default Footer;
 const Links = ({ title, icon }) => {
   return (
     <>
-      <div className="text-[#828791] hover:text-[#afb7c0] flex cursor-pointer">
+      <div className="text-[#828791] hover:text-primaryText flex cursor-pointer">
         <span>{icon}</span>
         <span className="text-[14px] ml-3 font-semibold">{title}</span>
       </div>

@@ -37,7 +37,7 @@ const FilterItem = ({ name, active }) => {
   );
 };
 
-const HighlightedChainSection = () => {
+const OverviewSection = () => {
   const [toggleMenu, setToggleMenu] = useState("mainnet");
 
   return (
@@ -97,30 +97,8 @@ const HighlightedChainSection = () => {
             Cosmos
           </h6>
         </div>
-        <div className="min-w-fit flex items-center gap-2">
-          <img src={Cosmos} alt="" className="w-8" />
-          <h6 className="text-base font-semibold text-primaryText uppercase">
-            Cosmos
-          </h6>
-        </div>
-        <div className="min-w-fit flex items-center gap-2">
-          <img src={Cosmos} alt="" className="w-8" />
-          <h6 className="text-base font-semibold text-primaryText uppercase">
-            Cosmos
-          </h6>
-        </div>
-        <div className="min-w-fit flex items-center gap-2">
-          <img src={Cosmos} alt="" className="w-8" />
-          <h6 className="text-base font-semibold text-primaryText uppercase">
-            Cosmos
-          </h6>
-        </div>
-        <div className="min-w-fit flex items-center gap-2">
-          <img src={Cosmos} alt="" className="w-8" />
-          <h6 className="text-base font-semibold text-primaryText uppercase">
-            Cosmos
-          </h6>
-        </div>
+   
+    
       </div>
 
       <div className="mt-2">
@@ -188,4 +166,4 @@ const HighlightedChainSection = () => {
   );
 };
 
-export default HighlightedChainSection;
+export default OverviewSection;

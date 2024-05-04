@@ -1,3 +1,5 @@
+
+
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useRef } from "react";
 import Cosmos from '../../assets/logos/cosmos.svg'
@@ -6,7 +8,7 @@ import { FaStar } from "react-icons/fa";
 // import $ from "jquery";
 import './table.css'
 
-const MainNetTable = () => {
+const TestNetTable = () => {
   const tableRef = useRef(null);
 
   //   useEffect(() => {
@@ -65,131 +67,6 @@ const MainNetTable = () => {
         </thead>
         <tbody>
           <tr className="bg-white border-b  hover:bg-gray-50">
-            <td className="px-6 py-4">
-              
-              <FaStar className="text-[#70ADD7]" />
-             
-            </td>
-            <td
-              scope="row"
-              className="px-6 cursor-pointer py-4 flex items-center gap-3 min-w-fit font-medium text-gray-900 whitespace-nowrap"
-            >
-             <img src={Cosmos} alt="" className="w-10" />
-             <div className="flex flex-col">
-                <h6 className="text-[14px] text-[#48515B] font-[600]">COSMOS</h6>
-                <p className="uppercase text-[12px]">Atom</p>
-             </div>
-              
-            </td>
-            <td className="px-6 py-4 font-semibold text-[#48515B]">$ 7.950</td>
-            <td className="px-6 py-4 font-semibold text-red-400">-0.84%</td>
-            <td className="px-6 py-4 font-semibold text-[#48515B]">14.3%</td>
-            <td className="px-6 py-4 font-semibold text-[#48515B]">10.0%</td>
-            <td className="px-6 py-4 font-semibold text-[#48515B]">$2999</td>
-            <td className="px-6 py-4">
-                <div className="flex max-w-fit flex-col">
-                  <p
-                  className="font-semibold text-[#48515B]"
-                  >
-                  $ 3.11b
-                  </p>
-                  <p>
-                  35th
-                  </p>
-                </div>
-               
-                </td>
-            <td className="px-6 py-4">15,338,404</td>
-            <td className="px-6 py-4">6.04s</td>
-            <td className="px-6 py-4">68,815,272</td>
-     
-
-
-          </tr>
-          <tr className="bg-white border-b  hover:bg-gray-50">
-            <td className="px-6 py-4">
-              
-              <FaStar className="text-[#70ADD7]" />
-             
-            </td>
-            <td
-              scope="row"
-              className="px-6 cursor-pointer py-4 flex items-center gap-3 min-w-fit font-medium text-gray-900 whitespace-nowrap"
-            >
-             <img src={Cosmos} alt="" className="w-10" />
-             <div className="flex flex-col">
-                <h6 className="text-[14px] text-[#48515B] font-[600]">COSMOS</h6>
-                <p className="uppercase text-[12px]">Atom</p>
-             </div>
-              
-            </td>
-            <td className="px-6 py-4 font-semibold text-[#48515B]">$ 7.950</td>
-            <td className="px-6 py-4 font-semibold text-red-400">-0.84%</td>
-            <td className="px-6 py-4 font-semibold text-[#48515B]">14.3%</td>
-            <td className="px-6 py-4 font-semibold text-[#48515B]">10.0%</td>
-            <td className="px-6 py-4 font-semibold text-[#48515B]">$2999</td>
-            <td className="px-6 py-4">
-                <div className="flex max-w-fit flex-col">
-                  <p
-                  className="font-semibold text-[#48515B]"
-                  >
-                  $ 3.11b
-                  </p>
-                  <p>
-                  35th
-                  </p>
-                </div>
-               
-                </td>
-            <td className="px-6 py-4">15,338,404</td>
-            <td className="px-6 py-4">6.04s</td>
-            <td className="px-6 py-4">68,815,272</td>
-     
-
-
-          </tr>
-          <tr className="bg-white border-b  hover:bg-gray-50">
-            <td className="px-6 py-4">
-              
-              <FaStar className="text-[#70ADD7]" />
-             
-            </td>
-            <td
-              scope="row"
-              className="px-6 cursor-pointer py-4 flex items-center gap-3 min-w-fit font-medium text-gray-900 whitespace-nowrap"
-            >
-             <img src={Cosmos} alt="" className="w-10" />
-             <div className="flex flex-col">
-                <h6 className="text-[14px] text-[#48515B] font-[600]">COSMOS</h6>
-                <p className="uppercase text-[12px]">Atom</p>
-             </div>
-              
-            </td>
-            <td className="px-6 py-4 font-semibold text-[#48515B]">$ 7.950</td>
-            <td className="px-6 py-4 font-semibold text-red-400">-0.84%</td>
-            <td className="px-6 py-4 font-semibold text-[#48515B]">14.3%</td>
-            <td className="px-6 py-4 font-semibold text-[#48515B]">10.0%</td>
-            <td className="px-6 py-4 font-semibold text-[#48515B]">$2999</td>
-            <td className="px-6 py-4">
-                <div className="flex max-w-fit flex-col">
-                  <p
-                  className="font-semibold text-[#48515B]"
-                  >
-                  $ 3.11b
-                  </p>
-                  <p>
-                  35th
-                  </p>
-                </div>
-               
-                </td>
-            <td className="px-6 py-4">15,338,404</td>
-            <td className="px-6 py-4">6.04s</td>
-            <td className="px-6 py-4">68,815,272</td>
-     
-
-
-          </tr>  <tr className="bg-white border-b  hover:bg-gray-50">
             <td className="px-6 py-4">
               
               <FaStar className="text-[#70ADD7]" />
@@ -363,4 +240,4 @@ const MainNetTable = () => {
   );
 };
 
-export default MainNetTable;
+export default TestNetTable;

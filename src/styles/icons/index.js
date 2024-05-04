@@ -1,5 +1,10 @@
-import { FaStar } from "react-icons/fa";
+import {
+  FaStar,
+  FaFacebook,
+  FaGithub,
+  FaMedium,
+  FaTwitter,
+} from "react-icons/fa";
+import { IoArrowRedoCircle } from "react-icons/io5";
 
-
-
-export {FaStar}
+export { FaStar, IoArrowRedoCircle, FaMedium, FaTwitter, FaGithub, FaFacebook };

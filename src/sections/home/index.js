@@ -1,3 +1,3 @@
-import HighlightedChainSection from "./HighlightedChainSection";
+import OverviewSection from "./OverviewSection"
 
-export {HighlightedChainSection}
+export {OverviewSection}

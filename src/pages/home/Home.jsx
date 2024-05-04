@@ -1,14 +1,15 @@
 import Footer from "../../components/ui/Footer";
-import { HighlightedChainSection } from "../../sections/home"
+
 import { BsFillLightningChargeFill } from "react-icons/bs";
+import OverviewSection from "../../sections/home/OverviewSection";
 
 const Home = () => {
   return (
     <div>
 
-      <div className="px-10 py-8">
+      <div className="px-10 py-8 border-b-2 border-[#98A2AE]">
         <h2 className="flex items-center gap-3"><BsFillLightningChargeFill className=" rounded-full bg-[#e0a100] text-white p-1 text-xl"/> <span className="text-primaryText text-base font-semibold">Hightlighted Chains</span></h2>
-        <HighlightedChainSection/>
+        <OverviewSection/>
       </div>
 
       <Footer/>

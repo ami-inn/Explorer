@@ -8,7 +8,7 @@ const HomeRoutes = () => {
       <Route path="/" element={<HomeLayout />}>
         <Route index element={<Home/>} />
       </Route>
-      <Route path="*" element={<Navigate to="/" />} />
+      {/* <Route path="*" element={<Navigate to="/" />} /> */}
     </Routes>
   );
 };
