@@ -88,6 +88,30 @@
     @apply invert-[50%] brightness-200;
   }
 
+    .main-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 4px;
+    border-radius: 4px;
+  }
+
+  .main-scrollbar::-webkit-scrollbar-track {
+    background: white;
+    
+  }
+
+  .main-scrollbar::-webkit-scrollbar-thumb {
+    background: #dadfe4;
+    border-radius: 50px;
+  }
+
+  .main-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #E6EBF3;
+    cursor:grab ;
+
+  }
+
+  /*  */
+
   .table-scrollbar::-webkit-scrollbar {
     width: 8px;
     height: 4px;

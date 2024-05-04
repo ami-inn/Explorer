@@ -42,56 +42,56 @@ const OverviewSection = () => {
 
   return (
     <section className="flex flex-col">
-      <div className=" max-w-full mt-4 px-2 mb-4  flex flex-wrap gap-x-16 gap-y-6 min-h-fit py-6 pt-3  ">
-        <div className="min-w-fit   flex items-center gap-2">
+      <div className=" w-full mt-4 px-2 mb-4  flex flex-wrap gap-x-15 gap-y-2 min-h-fit py-6 pt-3  ">
+        <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
           <img src={Cosmos} alt="" className="w-8" />
           <h6 className="text-base font-semibold text-primaryText uppercase">
             Cosmos
           </h6>
         </div>
-        <div className="min-w-fit flex items-center gap-2">
+        <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
           <img src={Cosmos} alt="" className="w-8" />
           <h6 className="text-base font-semibold text-primaryText uppercase">
             Cosmos
           </h6>
         </div>
-        <div className="min-w-fit flex items-center gap-2">
+        <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
           <img src={Cosmos} alt="" className="w-8" />
           <h6 className="text-base font-semibold text-primaryText uppercase">
             Cosmos
           </h6>
         </div>
-        <div className="min-w-fit flex items-center gap-2">
+        <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
           <img src={Cosmos} alt="" className="w-8" />
           <h6 className="text-base font-semibold text-primaryText uppercase">
             Cosmos
           </h6>
         </div>
-        <div className="min-w-fit flex items-center gap-2">
-          <img src={Cosmos} alt="" className="w-8" />
-          <h6 className="text-base font-semibold text-primaryText uppercase">
-            Cosmos
-          </h6>
-        </div>{" "}
-        <div className="min-w-fit flex items-center gap-2">
+        <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
           <img src={Cosmos} alt="" className="w-8" />
           <h6 className="text-base font-semibold text-primaryText uppercase">
             Cosmos
           </h6>
         </div>
-        <div className="min-w-fit flex items-center gap-2">
+        <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
           <img src={Cosmos} alt="" className="w-8" />
           <h6 className="text-base font-semibold text-primaryText uppercase">
             Cosmos
           </h6>
         </div>
-        <div className="min-w-fit flex items-center gap-2">
+        <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
           <img src={Cosmos} alt="" className="w-8" />
           <h6 className="text-base font-semibold text-primaryText uppercase">
             Cosmos
           </h6>
         </div>
-        <div className="min-w-fit flex items-center gap-2">
+        <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
+          <img src={Cosmos} alt="" className="w-8" />
+          <h6 className="text-base font-semibold text-primaryText uppercase">
+            Cosmos
+          </h6>
+        </div>
+        <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
           <img src={Cosmos} alt="" className="w-8" />
           <h6 className="text-base font-semibold text-primaryText uppercase">
             Cosmos

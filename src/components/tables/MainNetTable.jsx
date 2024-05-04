@@ -28,7 +28,7 @@ const MainNetTable = () => {
       >
         <thead className="text-[12px] font-medium text-[#98A2AE] font-montserrat tracking-wider capitalize bg-white">
           <tr>
-            <th scope="col" className="px-6 py-3">
+            <th scope="col" className="px-6 py-3 ">
               Pin
             </th>
             <th scope="col" className="px-6 py-3">

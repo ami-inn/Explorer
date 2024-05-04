@@ -29,7 +29,7 @@ const HomeLayout = () => {
       />
 
       <div
-        className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden custom-scrollbar"
+        className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden main-scrollbar"
         ref={divRef}
       >
         <Header

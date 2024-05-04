@@ -30,6 +30,14 @@
   width: 150px;
   z-index: 10;
   background: #fff;
+  
+}
+
+.overviewTable td:nth-child(2):hover
+{
+  background: rgb(240, 241, 242);
+  cursor: pointer;
+  
 }
 .overviewTable tr th:nth-child(2),
 .overviewTable tr th:first-child
