@@ -119,7 +119,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                     <React.Fragment>
                       <NavLink
                         to="#"
-                        className={`group relative capitalize   font-semibold text-lg  flex items-center gap-2.5 rounded-sm px-4 py-2  text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
+                        className={`group relative capitalize   font-semibold text-base  flex items-center gap-2.5 rounded-sm px-4 py-2  text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
                           (pathname === "/" ||
                             pathname.includes("dashboard")) &&
                           " g-meta-4"
@@ -161,7 +161,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                             <NavLink
                               to="/"
                               className={({ isActive }) =>
-                                "group relative flex justify-between items-center gap-2.5  hover:bg-primaryHover rounded-md px-4 py-2 font-medium  duration-300 ease-in-out text-primaryText " +
+                                "group relative flex justify-between items-center gap-2.5  hover:bg-primaryHover rounded-md px-4 py-2  font-semibold  text-sm  duration-300 ease-in-out text-primaryText " +
                                 (isActive && " text-primary")
                               }
                             >
@@ -192,7 +192,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                     <React.Fragment>
                       <NavLink
                         to="#"
-                        className={`group relative capitalize  font-semibold text-lg  flex items-center gap-2.5 rounded-sm px-4 py-2  text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
+                        className={`group relative capitalize  font-semibold text-base  flex items-center gap-2.5 rounded-sm px-4 py-2  text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
                           (pathname === "/" || pathname.includes("wallet")) &&
                           " g-meta-4"
                         }`}
@@ -234,7 +234,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                               <NavLink
                                 to={item.link}
                                 className={({ isActive }) =>
-                                  "group relative flex items-center gap-2.5  hover:bg-primaryHover rounded-md px-4 py-2 font-medium text-bodydark2 duration-300 ease-in-out text-secondaryText " +
+                                  "group relative flex items-center gap-2.5  hover:bg-primaryHover rounded-md px-4 py-2  font-semibold  text-sm duration-300 ease-in-out text-secondaryText " +
                                   (isActive && " text-primary")
                                 }
                               >
@@ -263,7 +263,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                     <React.Fragment>
                       <NavLink
                         to="#"
-                        className={`group relative capitalize  font-semibold text-lg  flex items-center gap-2.5 rounded-sm px-4 py-2  text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
+                        className={`group relative capitalize  font-semibold text-base  flex items-center gap-2.5 rounded-sm px-4 py-2  text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
                           (pathname === "/" ||
                             pathname.includes("Analytics")) &&
                           " g-meta-4"
@@ -306,7 +306,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                               <NavLink
                                 to={item.link}
                                 className={({ isActive }) =>
-                                  "group relative flex items-center gap-2.5  hover:bg-primaryHover rounded-md px-4 py-2 font-medium text-bodydark2 duration-300 ease-in-out text-secondaryText " +
+                                  "group relative flex items-center gap-2.5  hover:bg-primaryHover rounded-md px-4 py-2  font-semibold  text-sm duration-300 ease-in-out text-secondaryText " +
                                   (isActive && " text-primary")
                                 }
                               >
@@ -335,7 +335,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                     <React.Fragment>
                       <NavLink
                         to="#"
-                        className={`group relative capitalize  font-semibold text-lg  flex items-center gap-2.5 rounded-sm px-4 py-2  text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
+                        className={`group relative capitalize  font-semibold text-base  flex items-center gap-2.5 rounded-sm px-4 py-2  text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
                           (pathname === "/" ||
                             pathname.includes("Visualization")) &&
                           " g-meta-4"
@@ -378,7 +378,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                               <NavLink
                                 to={item.link}
                                 className={({ isActive }) =>
-                                  "group relative flex items-center gap-2.5  hover:bg-primaryHover rounded-md px-4 py-2 font-medium text-bodydark2 duration-300 ease-in-out text-secondaryText " +
+                                  "group relative flex items-center gap-2.5  hover:bg-primaryHover rounded-md px-4 py-2 font-semibold  text-sm duration-300 ease-in-out text-secondaryText " +
                                   (isActive && " text-primary")
                                 }
                               >
@@ -407,7 +407,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                     <React.Fragment>
                       <NavLink
                         to="#"
-                        className={`group relative capitalize  font-semibold text-lg  flex items-center gap-2.5 rounded-sm px-4 py-2  text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
+                        className={`group relative capitalize  font-semibold text-base  flex items-center gap-2.5 rounded-sm px-4 py-2  text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
                           (pathname === "/" ||
                             pathname.includes("Information")) &&
                           " g-meta-4"
@@ -450,7 +450,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
                               <NavLink
                                 to={item.link}
                                 className={({ isActive }) =>
-                                  "group relative flex items-center gap-2.5  hover:bg-primaryHover rounded-md px-4 py-2 font-medium text-bodydark2 duration-300 ease-in-out text-secondaryText " +
+                                  "group relative flex items-center gap-2.5  hover:bg-primaryHover rounded-md px-4 py-2  font-semibold  text-sm duration-300 ease-in-out text-secondaryText " +
                                   (isActive && " text-primary")
                                 }
                               >

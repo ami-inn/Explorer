@@ -1,9 +1,12 @@
 /* eslint-disable react/prop-types */
-
 import { FaSearch, FaWallet } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import BasicBreadcrumbs from "../mui/BreadCrumbs";
 
 const Header = (props) => {
+  let location = useLocation();
+  console.log(location, "location");
+
   return (
     <header className="sticky top-0 z-50 flex w-full bg-white  border-b-2 drop-shadow-1 dark:bg-boxdark dark:drop-shadow-none">
       <div className="flex flex-grow items-center justify-between px-4 py-4 shadow-2 md:px-6 2xl:px-11">
@@ -57,33 +60,39 @@ const Header = (props) => {
         </div>
 
         <div className="hidden sm:block">
-        <div className=" text-[14px] pl-[18px] font-semibold text-[#636f7e] hover:text-primaryText font-custom1 cursor-pointer">
-          Overview
-        </div>
+          <div className=" text-[16px] pl-[18px] font-semibold text-[#636f7e] hover:text-primaryText font-custom1 cursor-pointer">
+            {location.pathname === "/" ? (
+              "Overview"
+            ) : location.pathname.includes("/overview/") ? (
+              <BasicBreadcrumbs />
+            ) : (
+              "Overview"
+            )}
+          </div>
         </div>
 
         <div className="flex items-center gap-3 2xsm:gap-7">
-        <div className="flex items-center justify-evenly mr-4">
-          <div
-            onClick={() => {
-              // setOpen(true);
-            }}
-            className="flex items-center justify-between w-[216px] py-4 h-[34px] bg-white rounded-md border border-[#dfe1e4] cursor-pointer "
-          >
-            <div className="pl-2">
-              <FaSearch className="text-[#294b7a]" />
+          <div className="flex items-center justify-evenly mr-4">
+            <div
+              onClick={() => {
+                // setOpen(true);
+              }}
+              className="flex items-center justify-between w-[216px] py-4 h-[34px] bg-white rounded-md border border-[#dfe1e4] cursor-pointer "
+            >
+              <div className="pl-2">
+                <FaSearch className="text-[#294b7a]" />
+              </div>
+              <div className="bg-[#c2d1e5] text-[13px] text-[#294b7a] px-2 mr-2 rounded-sm">
+                /
+              </div>
             </div>
-            <div className="bg-[#c2d1e5] text-[13px] text-[#294b7a] px-2 mr-2 rounded-sm">
-              /
+            <div className=" p-[6px] text-secondaryText hover:text-primaryText rounded-md ml-[10px] pl-2 text-[18px] cursor-pointer hover:bg-primaryHover">
+              <FaWallet />
             </div>
-          </div>
-          <div className=" p-[6px] text-secondaryText hover:text-primaryText rounded-md ml-[10px] pl-2 text-[18px] cursor-pointer hover:bg-primaryHover">
-            <FaWallet />
-          </div>
-          {/* <div className=" p-[6px] text-secondaryText hover:text-primaryText rounded-md ml-[10px] pl-2 cursor-pointer hover:bg-[#363c45]">
+            {/* <div className=" p-[6px] text-secondaryText hover:text-primaryText rounded-md ml-[10px] pl-2 cursor-pointer hover:bg-[#363c45]">
             <FaUser  />
           </div> */}
-        </div>
+          </div>
 
           {/* <!-- User Area --> */}
           {/* <DropdownUser /> */}

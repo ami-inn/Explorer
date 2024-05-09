@@ -5,6 +5,7 @@ import "datatables.net";
 import { FaStar } from "react-icons/fa";
 // import $ from "jquery";
 import './table.css'
+import { Link } from "react-router-dom";
 
 const MainNetTable = () => {
   const tableRef = useRef(null);
@@ -72,14 +73,19 @@ const MainNetTable = () => {
             </td>
             <td
               scope="row"
-              className="px-6 cursor-pointer py-4 flex items-center gap-3 min-w-fit font-medium text-gray-900 whitespace-nowrap"
+              className="px-6 cursor-pointer py-4  min-w-fit font-medium text-gray-900 whitespace-nowrap"
             >
-             <img src={Cosmos} alt="" className="w-10" />
+              <Link className="flex gap-3 items-center"
+              to={'/overview/cosmos/'}
+              >
+              <img src={Cosmos} alt="" className="w-10" />
              <div className="flex flex-col">
                 <h6 className="text-[14px] text-[#48515B] font-[600]">COSMOS</h6>
                 <p className="uppercase text-[12px]">Atom</p>
              </div>
               
+              </Link>
+         
             </td>
             <td className="px-6 py-4 font-semibold text-[#48515B]">$ 7.950</td>
             <td className="px-6 py-4 font-semibold text-red-400">-0.84%</td>

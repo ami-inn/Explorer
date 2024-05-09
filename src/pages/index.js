@@ -1,4 +1,5 @@
 import Home from "./home/Home";
 import SingleChain from "./single-chain/SingleChain";
+import Validator from "./validator/Validator";
 
-export  {Home,SingleChain}
+export  {Home,SingleChain,Validator}

@@ -5,14 +5,14 @@ import { FaSearch } from "react-icons/fa";
 import MainNetTable from "../../components/tables/MainNetTable";
 
 
-const SearchBar = () => {
+export const SearchBar = () => {
   return (
     <div className="flex bg-[#E6EBF3] items-center px-2 py-1 rounded-md hover:bg-[#dfe6f0]">
-      <span>
-        <FaSearch fillColor={"#6c7989"} />
+      <span className="text-[#8D98A5]">
+        <FaSearch fillColor={"#8D98A5"} />
       </span>
       <input
-        className="pl-2 border-none cursor-pointer focus:outline-none bg-transparent placeholder:font-custom1 placeholder:text-[14px] placeholder:font-medium placeholder:text-secondaryText text-primaryText"
+        className="pl-2 border-none cursor-pointer focus:outline-none bg-transparent placeholder:font-custom1 placeholder:text-[14px] placeholder:font-medium placeholder:text-[#8D98A5] text-primaryText"
         type="text"
         placeholder="Search Chain"
       />
@@ -44,56 +44,56 @@ const OverviewSection = () => {
     <section className="flex flex-col">
       <div className=" w-full mt-4 px-2 mb-4  flex flex-wrap gap-x-15 gap-y-2 min-h-fit py-6 pt-3  ">
         <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
-          <img src={Cosmos} alt="" className="w-8" />
-          <h6 className="text-base font-semibold text-primaryText uppercase">
+          <img src={Cosmos} alt="" className="w-7" />
+          <h6 className="text-sm font-semibold text-primaryText uppercase">
             Cosmos
           </h6>
         </div>
         <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
           <img src={Cosmos} alt="" className="w-8" />
-          <h6 className="text-base font-semibold text-primaryText uppercase">
+          <h6 className="text-sm font-semibold text-primaryText uppercase">
             Cosmos
           </h6>
         </div>
         <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
           <img src={Cosmos} alt="" className="w-8" />
-          <h6 className="text-base font-semibold text-primaryText uppercase">
+          <h6 className="text-sm font-semibold text-primaryText uppercase">
             Cosmos
           </h6>
         </div>
         <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
           <img src={Cosmos} alt="" className="w-8" />
-          <h6 className="text-base font-semibold text-primaryText uppercase">
+          <h6 className="text-sm font-semibold text-primaryText uppercase">
             Cosmos
           </h6>
         </div>
         <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
           <img src={Cosmos} alt="" className="w-8" />
-          <h6 className="text-base font-semibold text-primaryText uppercase">
+          <h6 className="text-sm font-semibold text-primaryText uppercase">
             Cosmos
           </h6>
         </div>
         <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
           <img src={Cosmos} alt="" className="w-8" />
-          <h6 className="text-base font-semibold text-primaryText uppercase">
+          <h6 className="text-sm font-semibold text-primaryText uppercase">
             Cosmos
           </h6>
         </div>
         <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
           <img src={Cosmos} alt="" className="w-8" />
-          <h6 className="text-base font-semibold text-primaryText uppercase">
+          <h6 className="text-sm font-semibold text-primaryText uppercase">
             Cosmos
           </h6>
         </div>
         <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
           <img src={Cosmos} alt="" className="w-8" />
-          <h6 className="text-base font-semibold text-primaryText uppercase">
+          <h6 className="text-sm font-semibold text-primaryText uppercase">
             Cosmos
           </h6>
         </div>
         <div className="min-w-fit hover:bg-gray-100 cursor-pointer delay-150 ease-in-out px-4 py-3 rounded-2xl   flex items-center gap-2">
           <img src={Cosmos} alt="" className="w-8" />
-          <h6 className="text-base font-semibold text-primaryText uppercase">
+          <h6 className="text-sm font-semibold text-primaryText uppercase">
             Cosmos
           </h6>
         </div>

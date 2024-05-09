@@ -543,3 +543,19 @@
     transform: scale(1.2, 1);
   }
 }
+
+
+
+svg circle{
+  display: none;
+}
+svg circle:last-child{
+  display: block;
+fill:  #BA3B70;
+stroke:none ;
+
+}
+
+.recharts-surface{
+  cursor: pointer;
+}

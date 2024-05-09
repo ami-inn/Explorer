@@ -50,3 +50,26 @@
   z-index: 9;
 
 }
+
+
+ 
+
+.ValidatorTable th,
+.ValidatorTable td {
+  white-space: nowrap;
+  padding: 10px 20px;
+  font-family: Arial;
+}
+
+
+
+.ValidatorTable tr th:first-child,
+.ValidatorTable  td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 10;
+  background: #fff;
+  width: 250px;
+
+}
+

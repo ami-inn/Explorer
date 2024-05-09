@@ -56,7 +56,7 @@ const Analytics = [
 const Visualizations = [
     {
         icon: IoArrowRedoCircle,
-        name: 'IBC Networkd',
+        name: 'IBC Network',
         link:'/visulaization/ibc'
     },
     {
