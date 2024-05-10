@@ -10,16 +10,16 @@ import { Link } from "react-router-dom";
 const MainNetTable = () => {
   const tableRef = useRef(null);
 
-  //   useEffect(() => {
-  //     if (tableRef.current) {
-  //       $(tableRef.current).DataTable({
-  //         searching: false, // Disable search box
-  //         paging: false, // Disable pagination
-  //         lengthChange: false, // Disable per-page dropdown
-  //         info: false // Disable the "Showing X to X of X entries" info
-  //       });
-  //     }
-  //   }, []);
+    // useEffect(() => {
+    //   if (tableRef.current) {
+    //     $(tableRef.current).DataTable({
+    //       searching: false, // Disable search box
+    //       paging: false, // Disable pagination
+    //       lengthChange: false, // Disable per-page dropdown
+    //       info: false // Disable the "Showing X to X of X entries" info
+    //     });
+    //   }
+    // }, []);
 
   return (
     <div className="relative mt-4 overflow-x-auto table-scrollbar shadow-md sm:rounded-lg">
