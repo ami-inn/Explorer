@@ -1,5 +1,5 @@
-import { PureComponent } from "react";
-import { LineChart, Line,  ResponsiveContainer } from "recharts";
+
+import { LineChart, Line, ResponsiveContainer } from "recharts";
 
 const data = [
   {
@@ -52,30 +52,30 @@ const data = [
   },
 ];
 
-export default class Example extends PureComponent {
-  render() {
-    return (
-      <ResponsiveContainer width="100%" height="100%">
-        <LineChart height={50} data={data}>
-          <defs>
-            <linearGradient id="colorGradient">
-              {/* <stop offset="0%" stopColor="#D70E62" /> */}
-              <stop offset="0%" stopColor="black" />
-              <stop offset="50%" stopColor="#D70E62" />
+const RepositoryLineChart = () => {
+  return (
+    <ResponsiveContainer width="100%" height="100%">
+      <LineChart height={50} data={data}>
+        <defs>
+          <linearGradient id="colorGradient">
+            {/* <stop offset="0%" stopColor="#D70E62" /> */}
+            <stop offset="0%" stopColor="black" />
+            <stop offset="50%" stopColor="#D70E62" />
 
-              <stop offset="100%" stopColor="#D70E62" />
-            </linearGradient>
-          </defs>
-          <Line
-            type="linear"
-            // dot={false}
-            dataKey="uv"
-            strokeWidth={1} // Set the strokeWidth to make the line thicker
-            stroke="url(#colorGradient)" // Use the linear gradient as the stroke color
-            isAnimationActive={false} // Disable animation for a smoother round line
-          />
-        </LineChart>
-      </ResponsiveContainer>
-    );
-  }
-}
+            <stop offset="100%" stopColor="#D70E62" />
+          </linearGradient>
+        </defs>
+        <Line
+          type="linear"
+          // dot={false}
+          dataKey="uv"
+          strokeWidth={1} // Set the strokeWidth to make the line thicker
+          stroke="url(#colorGradient)" // Use the linear gradient as the stroke color
+          isAnimationActive={false} // Disable animation for a smoother round line
+        />
+      </LineChart>
+    </ResponsiveContainer>
+  );
+};
+
+export default RepositoryLineChart;

@@ -328,7 +328,7 @@ const DevActivitySection = () => {
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/64ab232c95bf3d3303ef037dce9f167834c7d9e7e37febb5dc23d83384ae7485?apiKey=4da174b503c046938aa1866c42a60f69&"
               className="grow shrink-0 aspect-[33.33] basis-0 w-fit max-md:max-w-full"
             /> */}
-            <div className="w-full h">
+            <div className="w-full ">
               <RepositoryLineChart />
             </div>
           </div>
@@ -367,7 +367,7 @@ const DevActivitySection = () => {
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/64ab232c95bf3d3303ef037dce9f167834c7d9e7e37febb5dc23d83384ae7485?apiKey=4da174b503c046938aa1866c42a60f69&"
               className="grow shrink-0 aspect-[33.33] basis-0 w-fit max-md:max-w-full"
             /> */}
-            <div className="w-full h">
+            <div className="w-full ">
               <RepositoryLineChart />
             </div>
           </div>

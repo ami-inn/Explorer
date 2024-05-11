@@ -3,76 +3,78 @@ import Chart from "react-apexcharts";
 import dayjs from 'dayjs'
 
 const DashboardCandleLightGraph = () => {
-const [options] = useState({
+  const [options] = useState({
     chart: {
-        height: 350,
-        type: "candlestick",
-        zoom: {
-            enabled: false
-        }
+      height: 350,
+      type: "candlestick",
+      zoom: {
+        enabled: false
+      }
     },
-    // title: {
-    //     text: "CandleStick Chart - Category X-axis",
-    //     align: "left",
-    // },
     annotations: {
-        xaxis: [
-            {
-                x: "Oct 06 14:00",
-                borderColor: "#00E396",
-                label: {
-                    borderColor: "#00E396",
-                    style: {
-                        fontSize: "12px",
-                        color: "#fff",
-                        background: "#00E396",
-                    },
-                    orientation: "horizontal",
-                    offsetY: 7,
-                    text: "Annotation Test",
-                },
+      xaxis: [
+        {
+          x: "Oct 06 14:00",
+          borderColor: "#00E396",
+          label: {
+            borderColor: "#00E396",
+            style: {
+              fontSize: "12px",
+              color: "#fff",
+              background: "#00E396",
             },
-        ],
+            orientation: "horizontal",
+            offsetY: 7,
+            text: "Annotation Test",
+          },
+        },
+      ],
     },
     tooltip: {
-        enabled: false,
+      enabled: false,
     },
     xaxis: {
-        type: "category",
-        labels: {
-            formatter: function (val) {
-                return dayjs(val).format("MMM DD HH:mm");
-            },
-            show:false
+      type: "category",
+      labels: {
+        formatter: function (val) {
+          return dayjs(val).format("MMM DD HH:mm");
         },
-        zoom: {
-            enabled: false
-        }
+        show: false
+      },
+      zoom: {
+        enabled: false
+      }
     },
     yaxis: {
-        tooltip: {
-            enabled: false,
-        },
-        zoom: {
-            enabled: false
-        }
+      tooltip: {
+        enabled: false,
+      },
+      zoom: {
+        enabled: false
+      },
+      opposite: true, // Move y-axis to the right side
     },
     zoom: {
-        enabled: false
+      enabled: false
     },
     zoomin: {
-        enabled: false
+      enabled: false
     },
     zoomout: {
-        enabled: false
+      enabled: false
     },
     pan: {
-        enabled: false
+      enabled: false
     },
     reset: {
-        enabled: false
+      enabled: false
+    },
+    chart: {
+      toolbar: {
+        show: false 
+      }
     }
-});
+  });
 
   const seriesData = [
     {
